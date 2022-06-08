@@ -21,9 +21,9 @@ export class AppComponent implements OnInit {
   title = 'calendar';
   /**
    *
-   */
+   */ 
   constructor(private http:HttpClient) {
-    
+
   }
   ngOnInit():void{
     this.getAllCRMActions()
